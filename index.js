@@ -147,5 +147,27 @@
 //     case "Swift":
 //         console.log(`${message} Кріс Латтнер`);
 //         break;
-    
 
+// 10. НАПИШІТЬ РЕЧЕННЯ ЗА ДОПОМОГОЮ ШАБЛОННОГО РЯДКА "ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ГАЛИНА, МЕНІ 35 РОКІВ, Я ВИВЧАЮ JAVASCRIPT"
+
+// const usersName = prompt("введіть ім'я")
+// const age = prompt("введіть вік")
+// const hobby = prompt("введіть хобі")
+// const message = `ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ${usersName}, МЕНІ ${age} РОКІВ, Я ВИВЧАЮ ${hobby}`
+// console.log(message);
+
+// 11.ПОРАХУЙТЕ СУМУ ТОВАРІВ У КОРЗИНІ , ПОТРІБНО ВВЕСТИ СУМУ 3-Х ТОВАРІВ І ПОРАХУВАТИ ЇХ СУМУ.\
+
+// const phone = Number(prompt("price"));
+// const laptop = Number(prompt("price"));
+// const mause = Number(prompt("price"));
+// const totalprice = phone+laptop+mause;
+// console.log(totalprice);
+
+// 12.Дано рядок, що складається із символів, наприклад, 'abcde'.
+//  Перевірте, що першим символом цього рядка є буква 'a'.
+//  Якщо це так - виведіть 'так', інакше виведіть 'ні'.
+
+// const word = 'abcde'
+// if (word[0] === 'a'){console.log("так") }
+// else {console.log("ні")};

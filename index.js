@@ -100,8 +100,6 @@
 
 // console.log("Ввели пароль: ", password);
 
-
-
 // 7.  У змінній min лежить число від 0 до 59.
 //  Визначте, в яку чверть години потрапляє це число(у першу, другу, третю чи четверту).
 
@@ -171,3 +169,42 @@
 // const word = 'abcde'
 // if (word[0] === 'a'){console.log("так") }
 // else {console.log("ні")};
+
+// // НАПИШІТЬ ПРОГРАМУ , ЯКА БУДЕ ЗАПИТУВАТИ У КОРИСТУВАЧА ПЕРІОД ПІДПИСКИ НА СЕРВІС ТА ПОКАЗУВАТИМЕ ЦІНУ ПІДПИСКИ
+// (ВИКОРИСТАЙ IF..ELSE, ТА ПЕРЕПИШИ НА SWITCH)
+// // ЯКЩО ДЕНЬ - ціна 1.99
+// // ЯУЩО НЕДІЛЯ - ціна 5.99
+// // ЯКЩО МІСЯЦЬ - ціна 10.99
+// // ЯКЩО РІК - ціна 100.99
+
+// const subscribe = prompt("Яка підписка?").toLowerCase();
+// switch (subscribe) {
+//   case "день":
+//     console.log("ціна 1.99");
+//     break;
+
+//   case "неділя":
+//     console.log("ціна 5.99");
+//     break;
+//   case "місяць":
+//     console.log("ціна 10.99");
+//     break;
+
+//   case "рік":
+//     console.log("ціна 100.99");
+//     break;
+
+//     default:
+//         console.log("Немає підписки");
+// }
+
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" ,
+//  ЯКЩО МЕНШЕ 7
+// "Your name isn't very long"
+
+// const userName = prompt("write name");
+// if (userName.length > 7){
+//    alert("Wow, you  have a REALLY long name!");
+// } else {
+//     alert("Your name isn't very long");
+// }
